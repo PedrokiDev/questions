@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F7FE;
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.title h2{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 55px;
+    color: #6b5030;
+    padding-bottom: 20px;
+}
+.section-center{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+.question{
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(194, 194, 194);
+}
+.question-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.question-title p{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.question-btn{
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #6b5030;
+    cursor: pointer;
+}
+.question-text{
+    padding: 5px 0px;
+    font-size: 15px;
+    border-top: 2px solid rgb(156, 156, 156);
+}
+/* hide text */
+.question-text{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: inline;
+}
+.show-text .plus-icon{
+    display: none;
+} 
